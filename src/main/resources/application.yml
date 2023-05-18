@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://85.185.67.243/postgres
+    username: postgres
+    password: 12345678
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+jwt:
+  secret-key: hrfaez1
+  issuer: http://j2os.org
